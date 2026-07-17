@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta
+      name="description"
+      content="Plantilla"
+    />
+    <link rel="stylesheet" href="stle.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">
+            <span class="brand-mark">🍦</span>
+            <span>Menú Antojo</span>
+          </div>
+          <a href="#menu" class="nav-link">Ver menú</a>
+        </nav>
+
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Delicias para pedir</p>
+            <h1>Comidas que te llegan al alma</h1>
+            <p>
+              Helados artesanales, malteadas cremosas y combos irresistibles
+              para disfrutar en casa con entrega rápida.
+            </p>
+            <div class="hero-actions">
+              <a href="#menu" class="btn btn-primary">Explorar menú</a>
+              <a href="#promos" class="btn btn-secondary">Ver combos</a>
+            </div>
+            <ul class="hero-badges">
+              <li>Entrega en 30 min</li>
+              <li>Pago fácil</li>
+              <li>Sabores únicos</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <img
+              src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=900&q=80"
+              alt="Helado gourmet con toppings"
+            />
+            <div class="hero-badge">Producto estrella</div>
+          </div>
+        </div>
+      </header>
+
+      <section id="promos" class="promos">
+        <div class="section-title">
+          <p class="eyebrow">Promociones</p>
+          <h2>Combos</h2>
+        </div>
+
+        <div class="promo-grid">
+          <article class="promo-card">
+            <h3>Combo 1</h3>
+            <p>2 helados + malteada + papas</p>
+            <strong>$24.900</strong>
+          </article>
+          <article class="promo-card accent">
+            <h3>Combo familiar</h3>
+            <p>4 copas + 2 bebidas + salsa extra</p>
+            <strong>$39.900</strong>
+          </article>
+          <article class="promo-card">
+            <h3>Postre + delivery</h3>
+            <p>Helado premium + brownie caliente</p>
+            <strong>$16.500</strong>
+          </article>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section">
+        <div class="section-title">
+          <p class="eyebrow">Menú interactivo</p>
+          <h2>Elige lo que te antoja</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Categorías del menú">
+          <button class="tab active" data-category="helados" type="button">
+            Helados
+          </button>
+          <button class="tab" data-category="malteadas" type="button">
+            Malteadas
+          </button>
+          <button class="tab" data-category="copas" type="button">Copas</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item" data-category="helados">
+            <h3>Super Alaska</h3>
+            <p>Helado de vainilla con brownie y salsa de caramelo.</p>
+            <span>$12.500</span>
+          </article>
+          <article class="menu-item" data-category="helados">
+            <h3>Choco Boom</h3>
+            <p>Chocolate intenso, nueces y crema chantilly.</p>
+            <span>$11.900</span>
+          </article>
+          <article class="menu-item" data-category="malteadas">
+            <h3>Malteada Oreo</h3>
+            <p>Base cremosa con galleta Oreo y topping de crema.</p>
+            <span>$10.500</span>
+          </article>
+          <article class="menu-item" data-category="malteadas">
+            <h3>Malteada Fresa</h3>
+            <p>Fresa natural, leche condensada y hielo fino.</p>
+            <span>$9.800</span>
+          </article>
+          <article class="menu-item" data-category="copas">
+            <h3>Copa Frutal</h3>
+            <p>Helado, fruta fresca y sirope de mango.</p>
+            <span>$13.200</span>
+          </article>
+          <article class="menu-item" data-category="copas">
+            <h3>Copa Torta</h3>
+            <p>Capas de helado con galleta, crema y chocolate.</p>
+            <span>$14.700</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-banner">
+        <div>
+          <p class="eyebrow">Tu pedido listo</p>
+          <h2>Haz tu domicilio con un solo mensaje.</h2>
+        </div>
+        <a
+          href="https://wa.me/573001234567?text=Hola%2C%20quiero%20hacer%20un%20pedido"
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener"
+          >Pedir por WhatsApp</a
+        >
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
